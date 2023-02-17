@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+live link [G3-Architects-app](https://inspiring-sawine-a7d4f2.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

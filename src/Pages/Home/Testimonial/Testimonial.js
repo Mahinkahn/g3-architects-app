@@ -37,11 +37,9 @@ const Testimonial = () => {
 
     return (
         <section className='my-16 max-w-[1440px] mx-auto mt[100px]'>
-            <div className='flex justify-between'>
-                <div className='ml-16'>
-                    <h4 className="text-4xl font-bold">Some Facts</h4>
-                    <h2 className="text-sm mt-6">There are many variations of passages of Lorem Ipsum available, but <br /> the majority have suffered alteration.</h2>
-                </div>
+            <div className='lg:ml-16 ml-10'>
+                <h4 className="lg:text-4xl text-2xl font-bold">Some Facts</h4>
+                <h2 className="lg:text-sm mt-6">There are many variations of passages of Lorem Ipsum available, but <br /> the majority have suffered alteration.</h2>
             </div>
             <div className='grid gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
                 {

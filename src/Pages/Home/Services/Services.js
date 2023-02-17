@@ -1,8 +1,5 @@
 import React from 'react';
-import fluoride from '../../../assets/images/fluoride.png'
-import cavity from '../../../assets/images/cavity.png'
 import Grou from '../../../assets/images/Group 16.png'
-import whitening from '../../../assets/images/whitening.png'
 import Service from './Service';
 
 const Services = () => {
@@ -10,10 +7,10 @@ const Services = () => {
     return (
         <div className="hero ">
             <div className="hero-content gap-12 flex-col lg:flex-row-reverse">
-                <img src={Grou} alt='' className="w-[708px] h-[780px] rounded-lg " />
-                <div className='w-[583px] h-[883px]'>
-                    <div className=' mt-24 py-2 border-l-[5px] border-primary '>
-                        <h1 className="text-4xl font-bold ml-5">Features you will <br /> love & enjoy!</h1>
+                <img src={Grou} alt='' className="lg:w-[708px] lg:h-[780px] w-full   rounded-lg " />
+                <div className='lg:w-[583px] lg:h-[883px]'>
+                    <div className='lg:mt-24 py-2 border-l-[5px] border-primary '>
+                        <h1 className="lg:text-4xl text-2xl font-bold ml-5">Features you will <br /> love & enjoy!</h1>
                     </div>
                     <p className="py-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
 
